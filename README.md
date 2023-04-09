@@ -7,7 +7,7 @@ if Key == nil then
 elseif DiscordID == nil then
     game.Players.LocalPlayers:Kick("\n Use DiscordID")
 end
-local WebSite = loadstring(game:HttpGet("https://raw.githubusercontent.com/lam29042008/key/main/key%20wl"))()
+local WebSite = "http://localhost/phpmyadmin/index.php?route=/sql&pos=0&db=rewl&table=bloxfruit"
 local hwid =  game:GetService("RbxAnalyticsService"):GetClientId();
 local check = WebSite.."check.php?Key="..Key.."&DiscordID="..DiscordID.."&Hwid="..hwid
 if game:HttpGet(check) == "Add Hwid" then
