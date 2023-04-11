@@ -1,13 +1,13 @@
 
-if Chooserace == Ghoul then
-    local args = {
-    [1] = "Ghoul"
+if Chooserace == Ghoul   then
+local args = {
+    [1] =  "CCG"
 }
 
 game:GetService("ReplicatedStorage").Remotes.Race.Chose:InvokeServer(unpack(args))
-elseif Chooserace == CCG then 
-    local args = {
-    [1] = "CCG"
+elseif Chooserace == CCG then
+local args = {
+    [1] =  "CCG"
 }
 
 game:GetService("ReplicatedStorage").Remotes.Race.Chose:InvokeServer(unpack(args))
