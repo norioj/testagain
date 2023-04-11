@@ -1,5 +1,4 @@
 
-wait(5)
 local gui = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/z4gs/scripts/master/testtttt.lua"))():AddWindow("RAC HUB", {
     main_color = Color3.fromRGB(0,0,0),
     min_size = Vector2.new(800, 400),
